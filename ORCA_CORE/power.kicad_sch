@@ -1,0 +1,46 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 429436bc-2b7b-4258-a84e-70e27e1b5395)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 17.399 17.653) (end 89.281 62.484)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 396f84e9-d495-498c-872a-bfe1ca270c2d)
+  )
+
+  (text "power\n" (at 17.145 16.764 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fec8ba5b-e9a3-4a45-99c4-a20a311cb769)
+  )
+
+  (hierarchical_label "emerge_order" (shape input) (at 33.274 71.755 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 31581d74-ea04-4b3d-bb88-5036c3f92118)
+  )
+  (hierarchical_label "GND_out" (shape output) (at 57.277 37.592 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 70486e5f-d83f-4e38-8a88-cdb71c6853ef)
+  )
+  (hierarchical_label "Vout_cpu" (shape output) (at 57.277 35.052 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 84866051-1b49-4a5a-872b-7fc13afc2f85)
+  )
+  (hierarchical_label "Vout_usp" (shape output) (at 57.277 32.512 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 88d5e107-33b7-4506-8159-90afffa996ab)
+  )
+  (hierarchical_label "emerg_detector" (shape output) (at 33.401 69.215 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 90afca64-48ed-4443-a0fe-9a2bdd22ba50)
+  )
+  (hierarchical_label "battery_checker" (shape output) (at 33.401 66.929 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d9427a1a-c9d8-4e62-a259-464e97d8cb8f)
+  )
+)
