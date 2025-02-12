@@ -1,4 +1,4 @@
-23510231496247414
+23520694616256849
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6376,6 +6376,13 @@ PH-3X4SG
 0
 12
 3
+Conn
+power_pad
+
+
+0
+2
+2
 Connector
 Banana_Cliff_FCR7350x_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -51820,6 +51827,13 @@ muRata MEJ1S DCDC-Converter
 0
 4
 4
+Converter_DCDC
+TPS61230A
+
+
+0
+6
+5
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -84112,6 +84126,13 @@ AXICOM HF3-Series Relay Pitch 1.27mm 75ohm
 16
 16
 Relay_THT
+RH1-U
+
+
+0
+5
+5
+Relay_THT
 Relay_1-Form-A_Schrack-RYII_RM5mm
 Relay, 1-Form-A, Schrack-RYII, RM5mm, SPST-NO
 Relay 1-Form-A Schrack-RYII RM5mm SPST-NO
@@ -96543,6 +96564,27 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+fuse
+fuse
+
+
+0
+0
+0
+nisshinbo
+TSOP8-M1
+
+
+0
+9
+8
+toshiba
+2-5Q1S
+
+
+0
+9
+8
 toshiba
 2-7M1A
 
