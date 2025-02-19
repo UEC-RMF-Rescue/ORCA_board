@@ -2263,7 +2263,7 @@
     (property "Value" "Fuse" (at 35.56 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 35.56 28.702 90)
+    (property "Footprint" "fuse:fuse" (at 35.56 28.702 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 30.48 0)
