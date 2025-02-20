@@ -12,4 +12,5 @@
   (lib (name "relay")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Relay/relay.pretty")(options "")(descr ""))
   (lib (name "nisshinbo")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Nisshinbo/nisshinbo.pretty")(options "")(descr ""))
   (lib (name "fuse")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Fuse/fuse.pretty")(options "")(descr ""))
+  (lib (name "cpu")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Cpu/cpu.pretty")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-23527656484240824
+23529397196884508
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93344,6 +93344,13 @@ Varistor VF
 0
 2
 2
+cpu
+raspberrypi_Zero_W_Vertical
+Through hole angled socket strip, 2x20, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 2x20 2.54mm double row
+0
+40
+40
 digikey-footprints
 3-SIP_Module_TM1000Q
 
