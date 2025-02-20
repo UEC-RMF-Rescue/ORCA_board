@@ -25,4 +25,9 @@
   (pad "1" thru_hole circle (at 13 0) (size 3 3) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp d1c62b03-aa2a-4055-bcf3-e9bc820d7b86))
   (pad "2" thru_hole circle (at -13 0) (size 3 3) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp e830673e-e141-4058-ace8-87f0a07f608b))
   (pad "2" thru_hole circle (at -7 0) (size 3 3) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp d0b73189-d483-49bb-b5a8-77ac069e6e0a))
+  (model "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/step/fuse.stp"
+    (offset (xyz 0 0 -1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

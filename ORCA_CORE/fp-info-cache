@@ -1,4 +1,4 @@
-23520694616256849
+23527656484240824
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,6 +20,13 @@ battery clip 18650 18350 17350 CR123A 2/3A
 0
 3
 1
+Battery
+BatteryHolder_1xAA_code
+
+
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48468,6 +48475,13 @@ usb usb-c 2.0 pd
 20
 17
 Connector_USB
+USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A_withmodel
+16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+Connector_USB
 USB_C_Receptacle_HRO_TYPE-C-31-M-12
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
 usb usb-c 2.0 pd
@@ -56525,6 +56539,13 @@ Choke SMD
 2
 2
 Inductor_SMD
+L_12x12mm_H8mm_withmodel
+Choke, SMD, 12x12mm 8mm height
+Choke SMD
+0
+2
+2
+Inductor_SMD
 L_0201_0603Metric
 Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
 inductor
@@ -63022,6 +63043,13 @@ US-8
 8
 Logo
 L6
+
+
+0
+0
+0
+Logo
+ORCA_logo
 
 
 0
@@ -96569,8 +96597,8 @@ fuse
 
 
 0
-0
-0
+4
+2
 nisshinbo
 TSOP8-M1
 
