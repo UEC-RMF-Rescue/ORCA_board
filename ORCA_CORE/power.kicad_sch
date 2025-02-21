@@ -3807,7 +3807,7 @@
     (property "Value" "RH1B-UDC6V" (at 127 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Relay_THT:RH1-U" (at 127 90.17 0)
+    (property "Footprint" "relay:RH1-U" (at 127 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 127 90.17 0)

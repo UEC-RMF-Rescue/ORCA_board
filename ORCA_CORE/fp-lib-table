@@ -13,4 +13,7 @@
   (lib (name "nisshinbo")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Nisshinbo/nisshinbo.pretty")(options "")(descr ""))
   (lib (name "fuse")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Fuse/fuse.pretty")(options "")(descr ""))
   (lib (name "cpu")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Cpu/cpu.pretty")(options "")(descr ""))
+  (lib (name "inductor")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Inductor/inductor.pretty")(options "")(descr ""))
+  (lib (name "battery_case")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Battery/battery_case.pretty")(options "")(descr ""))
+  (lib (name "converter_module")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Converter_module/converter_module.pretty")(options "")(descr ""))
 )

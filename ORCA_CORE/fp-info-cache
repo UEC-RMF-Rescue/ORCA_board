@@ -1,4 +1,4 @@
-23531140927749471
+23531141435433714
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,13 +20,6 @@ battery clip 18650 18350 17350 CR123A 2/3A
 0
 3
 1
-Battery
-BatteryHolder_1xAA_code
-
-
-0
-2
-2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51848,13 +51841,6 @@ muRata MEJ1S DCDC-Converter
 0
 4
 4
-Converter_DCDC
-TPS61230A
-
-
-0
-6
-5
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -56540,13 +56526,6 @@ Choke SMD
 2
 Inductor_SMD
 L_12x12mm_H8mm
-Choke, SMD, 12x12mm 8mm height
-Choke SMD
-0
-2
-2
-Inductor_SMD
-L_12x12mm_H8mm_withmodel
 Choke, SMD, 12x12mm 8mm height
 Choke SMD
 0
@@ -84161,13 +84140,6 @@ AXICOM HF3-Series Relay Pitch 1.27mm 75ohm
 16
 16
 Relay_THT
-RH1-U
-
-
-0
-5
-5
-Relay_THT
 Relay_1-Form-A_Schrack-RYII_RM5mm
 Relay, 1-Form-A, Schrack-RYII, RM5mm, SPST-NO
 Relay 1-Form-A Schrack-RYII RM5mm SPST-NO
@@ -93351,6 +93323,20 @@ Varistor VF
 0
 2
 2
+battery_case
+BatteryHolder_1xAA_code
+
+
+0
+2
+2
+converter_module
+TPS61230A
+
+
+0
+6
+5
 cpu
 raspberrypi_Zero_W_Vertical
 Through hole angled socket strip, 2x20, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
@@ -96613,6 +96599,13 @@ fuse
 0
 4
 2
+inductor
+L_12x12mm_H8mm_withmodel
+Choke, SMD, 12x12mm 8mm height
+Choke SMD
+0
+2
+2
 nisshinbo
 TSOP8-M1
 
@@ -96620,6 +96613,13 @@ TSOP8-M1
 0
 9
 8
+relay
+RH1-U
+
+
+0
+5
+5
 toshiba
 2-5Q1S
 
