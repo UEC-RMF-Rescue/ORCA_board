@@ -2904,6 +2904,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 163.83 144.78 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 532883ad-9d9f-4a46-a789-746f2ce63d71)
+    (property "Reference" "#PWR010" (at 170.18 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.64 144.78 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 163.83 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 163.83 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d493c71c-ef8d-4021-8f11-9d6e1c44c589))
+    (instances
+      (project "ORCA_CORE"
+        (path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/6a7faaf2-e424-4dfa-bbc5-1df218d33dea"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 227.33 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53c11db1-1f7d-44e2-8873-8fbcb536489c)
@@ -3555,31 +3580,6 @@
       (project "ORCA_CORE"
         (path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/6a7faaf2-e424-4dfa-bbc5-1df218d33dea"
           (reference "#PWR057") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 163.83 144.78 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c0a5b314-5d5a-4d9e-a413-b53aa6ae4e89)
-    (property "Reference" "#PWR010" (at 170.18 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 167.64 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 163.83 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 163.83 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c147ac23-69d4-4f88-9bb4-2b05ec7fd37e))
-    (instances
-      (project "ORCA_CORE"
-        (path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/6a7faaf2-e424-4dfa-bbc5-1df218d33dea"
-          (reference "#PWR010") (unit 1)
         )
       )
     )
