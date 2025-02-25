@@ -490,7 +490,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ORCA_CORE.net",
-      "plot": "",
+      "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -609,7 +609,7 @@
   "sheets": [
     [
       "895d6bb7-4008-488b-a34b-0077e9f7e4a1",
-      ""
+      "ルート"
     ],
     [
       "62c40b6d-2f8c-4265-a550-d6ec27759bcd",
