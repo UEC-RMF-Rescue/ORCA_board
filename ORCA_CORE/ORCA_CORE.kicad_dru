@@ -1,0 +1,3 @@
+(version 1)
+(rule "Disallow Blind Vias"
+   (constraint disallow buried_via))
