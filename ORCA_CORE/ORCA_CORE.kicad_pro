@@ -493,7 +493,7 @@
       "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../hard/board/core_assy.step",
       "svg": "",
       "vrml": ""
     },
