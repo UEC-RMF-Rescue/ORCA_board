@@ -5718,7 +5718,6 @@
 	(hierarchical_label "Vin"
 		(shape input)
 		(at 26.67 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5730,7 +5729,6 @@
 	(hierarchical_label "GND"
 		(shape output)
 		(at 25.4 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5742,7 +5740,6 @@
 	(hierarchical_label "GND_5V"
 		(shape output)
 		(at 25.4 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,7 +5751,6 @@
 	(hierarchical_label "Vout"
 		(shape input)
 		(at 163.83 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

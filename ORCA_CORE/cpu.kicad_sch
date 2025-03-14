@@ -7161,7 +7161,6 @@
 	)
 	(label "GPIO17"
 		(at 247.65 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7172,7 +7171,6 @@
 	)
 	(label "GPIO13"
 		(at 247.65 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7183,7 +7181,6 @@
 	)
 	(label "GPIO18"
 		(at 153.67 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7194,7 +7191,6 @@
 	)
 	(label "GPIO20"
 		(at 266.7 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7205,7 +7201,6 @@
 	)
 	(label "GPIO12"
 		(at 210.82 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7216,7 +7211,6 @@
 	)
 	(label "GPIO21"
 		(at 266.7 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7227,7 +7221,6 @@
 	)
 	(label "GPIO21"
 		(at 153.67 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7238,7 +7231,6 @@
 	)
 	(label "GPIO12"
 		(at 247.65 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7249,7 +7241,6 @@
 	)
 	(label "GPIO18"
 		(at 247.65 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7260,7 +7251,6 @@
 	)
 	(label "GPIO19"
 		(at 153.67 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7271,7 +7261,6 @@
 	)
 	(label "GPIO16"
 		(at 247.65 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7282,7 +7271,6 @@
 	)
 	(label "GPIO20"
 		(at 153.67 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7293,7 +7281,6 @@
 	)
 	(label "GPIO17"
 		(at 153.67 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7304,7 +7291,6 @@
 	)
 	(label "GPIO27"
 		(at 266.7 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7315,7 +7301,6 @@
 	)
 	(label "GPIO26"
 		(at 153.67 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7326,7 +7311,6 @@
 	)
 	(label "GPIO26"
 		(at 266.7 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7337,7 +7321,6 @@
 	)
 	(label "GPIO19"
 		(at 266.7 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7348,7 +7331,6 @@
 	)
 	(label "GPIO16"
 		(at 153.67 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7359,7 +7341,6 @@
 	)
 	(label "GPIO13"
 		(at 210.82 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7370,7 +7351,6 @@
 	)
 	(label "GPIO27"
 		(at 153.67 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8328,7 +8308,6 @@
 	(hierarchical_label "emerge_order"
 		(shape output)
 		(at 119.38 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8340,7 +8319,6 @@
 	(hierarchical_label "Vin_6V"
 		(shape input)
 		(at 25.4 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8352,7 +8330,6 @@
 	(hierarchical_label "emerg_detector"
 		(shape input)
 		(at 119.38 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8364,7 +8341,6 @@
 	(hierarchical_label "GND_5V"
 		(shape bidirectional)
 		(at 29.21 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8376,7 +8352,6 @@
 	(hierarchical_label "Vin_cpu"
 		(shape input)
 		(at 25.4 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8388,7 +8363,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 29.21 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8400,7 +8374,6 @@
 	(hierarchical_label "power_checker"
 		(shape input)
 		(at 119.38 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
