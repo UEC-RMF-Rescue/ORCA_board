@@ -9333,7 +9333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7"
+		(property "Value" "10k"
 			(at 40.64 163.83 0)
 			(effects
 				(font
