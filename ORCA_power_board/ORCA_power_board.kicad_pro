@@ -455,7 +455,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ORCA_CORE.kicad_pro",
+    "filename": "ORCA_power_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -489,7 +489,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "ORCA_CORE.net",
+      "netlist": "ORCA_power_board.net",
       "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
@@ -612,8 +612,12 @@
       "ルート"
     ],
     [
-      "e25f2ef8-8e13-4e8d-9b3a-975318177c66",
-      "cpu"
+      "62c40b6d-2f8c-4265-a550-d6ec27759bcd",
+      "power"
+    ],
+    [
+      "6a7faaf2-e424-4dfa-bbc5-1df218d33dea",
+      "usp"
     ]
   ],
   "text_variables": {}
