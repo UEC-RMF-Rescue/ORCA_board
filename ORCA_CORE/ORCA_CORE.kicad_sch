@@ -312,6 +312,554 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND1_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -699,7 +1247,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 107.95 45.72)
+			(xy 30.48 30.48) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f7a61f-05ce-4f5e-b853-e5e1103e98e7")
+	)
+	(wire
+		(pts
+			(xy 30.48 45.72) (xy 41.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +1267,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 40.64) (xy 107.95 40.64)
+			(xy 30.48 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6973bc28-9eb1-410f-bc66-897e6edf53b4")
+	)
+	(wire
+		(pts
+			(xy 30.48 40.64) (xy 41.91 40.64)
 		)
 		(stroke
 			(width 0)
@@ -719,17 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 106.68) (xy 107.95 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbde5b82-6a34-42f0-ac79-ddb343f7dfa7")
-	)
-	(wire
-		(pts
-			(xy 96.52 43.18) (xy 107.95 43.18)
+			(xy 30.48 43.18) (xy 41.91 43.18)
 		)
 		(stroke
 			(width 0)
@@ -737,27 +1295,19 @@
 		)
 		(uuid "d122c498-a457-43f1-a067-7a8cf5afcc3c")
 	)
-	(wire
-		(pts
-			(xy 96.52 26.67) (xy 107.95 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02476a1-0d2f-4495-8eab-5c4870ab599b")
-	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 123.19 0)
+		(lib_name "GND1_1")
+		(lib_id "power:GND1")
+		(at 72.39 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4d65f3bf-a585-47f9-a056-71eb7675a570")
-		(property "Reference" "#PWR0104"
-			(at 132.08 129.54 0)
+		(fields_autoplaced yes)
+		(uuid "43765e9d-ae7c-4e4d-8b12-d60df3d8ff7d")
+		(property "Reference" "#PWR08"
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,8 +1315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 132.08 128.27 0)
+		(property "Value" "GND1"
+			(at 72.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +1324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 123.19 0)
+			(at 72.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +1333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 123.19 0)
+			(at 72.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,8 +1341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 72.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,12 +1351,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "98e55921-7a3c-4694-b511-c47af7af95e3")
+			(uuid "4b6ddda7-627b-49ed-95ed-3154d2621c47")
 		)
 		(instances
-			(project "ORCA_CORE"
+			(project ""
 				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
-					(reference "#PWR0104")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -945,74 +1495,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 204.47 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57ca59ba-44b7-4398-b7db-0f93fc6d86c3")
-		(property "Reference" "#FLG017"
-			(at 204.47 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 204.47 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64e7dd61-c34e-4502-836d-83644bf58b10")
-		)
-		(instances
-			(project "ORCA_CORE"
-				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
-					(reference "#FLG017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 91.44 29.21 180)
+		(at 25.4 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1020,7 +1504,7 @@
 		(dnp no)
 		(uuid "588beced-98a3-40d3-aa27-2195d94cf6c2")
 		(property "Reference" "J17"
-			(at 92.71 31.75 0)
+			(at 26.67 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1512,7 @@
 			)
 		)
 		(property "Value" "Vin_motor"
-			(at 95.25 34.29 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1520,7 @@
 			)
 		)
 		(property "Footprint" "Conn:power_pad"
-			(at 91.44 29.21 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 29.21 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 29.21 0)
+			(at 25.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,6 +1556,81 @@
 			(project "ORCA_CORE"
 				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 176.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "678fbbb9-7d07-4680-adc1-46896ad5dfc5")
+		(property "Reference" "J24"
+			(at 179.07 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "motor_arm"
+			(at 179.07 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a8b4f69-56c4-476e-81a3-87459f34ca9f")
+		)
+		(pin "4"
+			(uuid "f586a582-6fea-4bc4-9f55-6b8a28434776")
+		)
+		(pin "1"
+			(uuid "d0acb2eb-d500-4d3e-9aad-12886cb96658")
+		)
+		(pin "3"
+			(uuid "a8e96287-e0f5-41a2-a794-3a0d9a035305")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -1144,16 +1703,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 77.47 109.22 180)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 176.53 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4672bbc-5b14-47fb-97f1-502a5abacbe6")
-		(property "Reference" "J19"
-			(at 87.63 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "829eeb44-be0a-4656-b2af-0926e24fa867")
+		(property "Reference" "J25"
+			(at 179.07 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,8 +1721,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+5Vin_cpu"
-			(at 87.63 102.87 0)
+		(property "Value" "servo_arm"
+			(at 179.07 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,8 +1730,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Conn:power_pad"
-			(at 77.47 109.22 0)
+		(property "Footprint" ""
+			(at 176.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1740,88 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 109.22 0)
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "405e91ad-2a8e-45ef-a5b0-156575072f25")
+		)
+		(pin "1"
+			(uuid "496554ae-41ef-4f15-a93e-94db813b2af0")
+		)
+		(pin "4"
+			(uuid "44aba80c-eac2-48d5-be62-338a10482a18")
+		)
+		(pin "5"
+			(uuid "3df27c3a-1200-4246-a1e1-2f9cc86be3d6")
+		)
+		(pin "2"
+			(uuid "9bdf251f-2685-4b20-8bfc-5d1d3afafa94")
+		)
+		(pin "3"
+			(uuid "6aa1a460-6822-4992-8cce-c12b3d4d726e")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 25.4 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4672bbc-5b14-47fb-97f1-502a5abacbe6")
+		(property "Reference" "J19"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5Vin_cpu"
+			(at 35.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Conn:power_pad"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 109.22 0)
+			(at 25.4 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,73 +1855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 204.47 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caf9b42d-d766-43f1-a367-2e6793246de7")
-		(property "Reference" "#PWR026"
-			(at 204.47 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 204.47 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc0c17af-d3ff-414c-8e13-500cac298ae9")
-		)
-		(instances
-			(project "ORCA_CORE"
-				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 82.55 109.22 90)
+		(at 30.48 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1289,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc69e52b-2be0-4538-a06b-9fab8d42a499")
 		(property "Reference" "#PWR05"
-			(at 88.9 109.22 0)
+			(at 36.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1873,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 86.36 109.22 90)
+			(at 34.29 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 109.22 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 109.22 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 109.22 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,74 +1921,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 138.43 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eebcda29-ee95-474b-837c-bfe2c8fc448d")
-		(property "Reference" "#PWR025"
-			(at 138.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 138.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46c63f8a-39a2-4362-9601-f8d13862b59f")
-		)
-		(instances
-			(project "ORCA_CORE"
-				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 91.44 43.18 180)
+		(at 25.4 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1421,7 +1930,7 @@
 		(dnp no)
 		(uuid "f0e5b2f8-47a0-4819-a0d4-4be9802ca3b6")
 		(property "Reference" "J18"
-			(at 92.71 48.26 0)
+			(at 26.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1938,7 @@
 			)
 		)
 		(property "Value" "data_line_power"
-			(at 97.79 50.8 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1946,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 91.44 43.18 0)
+			(at 25.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 43.18 0)
+			(at 25.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 43.18 0)
+			(at 25.4 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +2058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 29.21 90)
+		(at 30.48 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1558,7 +2067,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9a839b9-dc78-4c14-9c2b-ce5ea16059f2")
 		(property "Reference" "#PWR0103"
-			(at 102.87 29.21 0)
+			(at 36.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +2076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 29.21 90)
+			(at 34.29 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +2085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 29.21 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 29.21 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +2103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 29.21 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,9 +2123,676 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 176.53 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9c886cd-fae0-45fc-8e56-b0cc41efbaf9")
+		(property "Reference" "J23"
+			(at 179.07 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "motor_fork"
+			(at 179.07 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d95a3491-6dd7-4231-b29f-03e8b586430f")
+		)
+		(pin "4"
+			(uuid "35be663e-9198-4cb3-b1b3-6a9216bddde7")
+		)
+		(pin "1"
+			(uuid "8a693eb4-9722-427c-9b75-9ef2652bc71c")
+		)
+		(pin "3"
+			(uuid "477407eb-9a0f-48ab-9146-7862725ee1bd")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 107.95 24.13)
-		(size 44.45 99.06)
+		(at 43.18 142.24)
+		(size 86.36 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "663b2318-8aea-45e9-89db-8c327bbfd340")
+		(property "Sheetname" "external_input"
+			(at 43.18 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external_input.kicad_sch"
+			(at 43.18 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD_uart" bidirectional
+			(at 62.23 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa0d0ebf-8fe9-4f0b-b8b5-71622784fc6d")
+		)
+		(pin "TXD_uart" bidirectional
+			(at 69.85 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a37492c-3ffc-4db0-802f-ff8724c0956b")
+		)
+		(pin "GND_uart" output
+			(at 67.31 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c644b569-20a0-4a91-ac76-5e17c3e122f1")
+		)
+		(pin "+5V_uart" output
+			(at 64.77 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80ab4927-5c65-4dc3-8ca7-47b69856bdc1")
+		)
+		(pin "GND_led" input
+			(at 82.55 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2326d844-3a6d-48a9-8823-c50f0fbbe041")
+		)
+		(pin "+5V_led" input
+			(at 80.01 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29aff129-15a0-45d5-9e00-850af270afac")
+		)
+		(pin "full_color_led" input
+			(at 77.47 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8343e918-0ba2-437e-8f24-b7213ec4c58e")
+		)
+		(pin "3V3_reset" input
+			(at 91.44 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e479a4c-56db-41c8-a94a-2e274101fc7b")
+		)
+		(pin "GND_reset" input
+			(at 93.98 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa5163a8-fd7d-4f1f-a68b-b363480318b3")
+		)
+		(pin "sw_reset" output
+			(at 88.9 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d7e5a6f-2240-4bdf-b12a-f940ea341ada")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 66.04)
+		(size 20.32 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "880e87ff-23ea-4a52-b228-11eaa0fc1d65")
+		(property "Sheetname" "md_arm"
+			(at 190.5 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "md.kicad_sch"
+			(at 190.5 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_A" bidirectional
+			(at 190.5 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6e7b43a-2414-4a60-9c85-493841f82439")
+		)
+		(pin "IN_B" bidirectional
+			(at 190.5 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63a57ecd-48b9-429f-80ca-a6e13d667290")
+		)
+		(pin "Vin_cpu" input
+			(at 190.5 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d932e09f-621e-41f3-90f5-13ee086b778c")
+		)
+		(pin "Vin_motor" input
+			(at 190.5 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cd34b9b-fd0c-49a6-9d1d-0c61ef4d289e")
+		)
+		(pin "GND_motor" bidirectional
+			(at 190.5 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6268c197-2bce-48c4-a469-53dfd647b994")
+		)
+		(pin "GND_cpu" bidirectional
+			(at 190.5 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07da2c68-4f6a-4304-88ad-a3ffd2536827")
+		)
+		(pin "limit_sw_upper" output
+			(at 190.5 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "913cf65f-98a5-4bac-8b79-d4ccc8602a52")
+		)
+		(pin "limit_sw_under" output
+			(at 190.5 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59efa03e-0367-4ee1-b270-7476459438ac")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 104.14)
+		(size 20.32 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c77acf15-1268-4efe-b693-edffd64e020d")
+		(property "Sheetname" "md_fork"
+			(at 190.5 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "md.kicad_sch"
+			(at 190.5 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_A" bidirectional
+			(at 190.5 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e63c20d6-388e-4fd2-8602-e55ad5cfaf10")
+		)
+		(pin "IN_B" bidirectional
+			(at 190.5 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31275ae2-6008-4251-bfa8-003b0a04679d")
+		)
+		(pin "Vin_cpu" input
+			(at 190.5 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "945bc7cd-7d21-45d0-9ca6-26da74fc244d")
+		)
+		(pin "Vin_motor" input
+			(at 190.5 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01be8151-cc32-495a-81c3-fe34938cc766")
+		)
+		(pin "GND_motor" bidirectional
+			(at 190.5 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fc5a934-6b63-444a-9190-f1d3c04e70f4")
+		)
+		(pin "GND_cpu" bidirectional
+			(at 190.5 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d09237c1-5784-4432-ac16-01219a0f32d7")
+		)
+		(pin "limit_sw_upper" output
+			(at 190.5 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd5cc803-a541-4d74-a41d-b5f82764174f")
+		)
+		(pin "limit_sw_under" output
+			(at 190.5 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68193c53-0adf-44d8-a9e8-39f2cf26f876")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 24.13)
+		(size 33.02 97.79)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d48a95a9-5d4a-4154-9fc5-1311b9393ae9")
+		(property "Sheetname" "cpu_hat"
+			(at 138.43 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu_hat.kicad_sch"
+			(at 138.43 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_B_fork" input
+			(at 138.43 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4f02e63-65d3-4cc3-b313-51aca4a5ea4d")
+		)
+		(pin "IN_B_fork_out" output
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6c21113-775a-4bff-b5d8-dacd032f6bba")
+		)
+		(pin "IN_A_fork" input
+			(at 138.43 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6133c39a-86d9-41fe-bf18-b847e88a00be")
+		)
+		(pin "IN_A_arm" input
+			(at 138.43 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed5933fe-5d98-4c70-baee-56c6e4f1790d")
+		)
+		(pin "IN_B_arm" input
+			(at 138.43 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dab327ce-2671-4edd-b244-28f151b7a5cc")
+		)
+		(pin "IN_B_arm_out" output
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3586959d-e155-448b-98ab-ef0f48e316dd")
+		)
+		(pin "IN_A_arm_out" output
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97f8c76a-ca7a-4ed9-82e7-5bcfb31de315")
+		)
+		(pin "motor_1_out" output
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36b5ce1e-66a1-4ded-9bda-9fe91763b148")
+		)
+		(pin "motor_3" input
+			(at 138.43 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "305e58cb-2cb4-41a5-8467-2e95359698ff")
+		)
+		(pin "motor_0_out" output
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "316a6a88-42d5-4015-89c1-afa3041d27ed")
+		)
+		(pin "motor_1" input
+			(at 138.43 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f19b5bbb-4a6c-4e6f-b8ef-cea6b858a293")
+		)
+		(pin "motor_0" input
+			(at 138.43 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f34ae69d-935f-4cb2-bc3a-6c158ad6ea46")
+		)
+		(pin "motor_2" input
+			(at 138.43 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b798ff5-3886-495f-8337-0eeda35be334")
+		)
+		(pin "IN_A_fork_out" output
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6470ce59-0bcc-4fbc-9406-ae6b4032d0d2")
+		)
+		(pin "GND" input
+			(at 166.37 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "503627e4-b33a-442d-b4cb-32e242151b39")
+		)
+		(pin "Vin" input
+			(at 138.43 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e119c5a-540a-4862-8bb9-8203c6a25c0a")
+		)
+		(pin "motor_2_out" output
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4bf37d1c-1c9a-4a01-b7a3-f7b6a42ecbe5")
+		)
+		(pin "motor_3_out" output
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "823f5a69-f13a-4e78-88cf-942d0d3ecdcf")
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 24.13)
+		(size 85.09 97.79)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1627,7 +2803,7 @@
 		)
 		(uuid "e25f2ef8-8e13-4e8d-9b3a-975318177c66")
 		(property "Sheetname" "cpu"
-			(at 107.95 23.4184 0)
+			(at 41.91 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +2812,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 107.95 123.7746 0)
+			(at 41.91 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +2821,7 @@
 			)
 		)
 		(property "フィールド2" ""
-			(at 107.95 24.13 0)
+			(at 41.91 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +2830,7 @@
 			)
 		)
 		(pin "Vin_6V" input
-			(at 107.95 26.67 180)
+			(at 41.91 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +2840,7 @@
 			(uuid "fe4e9b60-0835-42d2-bbaf-40592f0390ef")
 		)
 		(pin "Vin_cpu" input
-			(at 107.95 106.68 180)
+			(at 41.91 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,18 +2849,8 @@
 			)
 			(uuid "af2f5a43-02ff-4997-bde1-e81b6d62e788")
 		)
-		(pin "GND" bidirectional
-			(at 132.08 123.19 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "36f9404d-9814-4674-8e77-20380fd25932")
-		)
 		(pin "emerg_detector" input
-			(at 107.95 45.72 180)
+			(at 41.91 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +2860,7 @@
 			(uuid "eb5a1005-ec73-46db-ac55-e189548847db")
 		)
 		(pin "emerge_order" output
-			(at 107.95 40.64 180)
+			(at 41.91 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +2870,7 @@
 			(uuid "fdf5ced8-6915-4aed-940c-82168c530145")
 		)
 		(pin "power_checker" input
-			(at 107.95 43.18 180)
+			(at 41.91 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +2880,7 @@
 			(uuid "f42ccffa-82bc-498e-abe7-c29c9bef6e09")
 		)
 		(pin "GND_5V" bidirectional
-			(at 138.43 123.19 270)
+			(at 72.39 121.92 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,10 +2889,108 @@
 			)
 			(uuid "7628a311-de19-43c6-b9c9-c75e038fed21")
 		)
+		(pin "RXD_5V" input
+			(at 90.17 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70415ce7-4bd0-4afd-9efa-5d74eebd70c6")
+		)
+		(pin "TXD_5V" input
+			(at 87.63 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cba71ef-957f-482a-b873-663e37fab963")
+		)
+		(pin "SDA_cpu" input
+			(at 101.6 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69b1a865-5164-45d4-a151-bdcddb0aa631")
+		)
+		(pin "SCL_cpu" input
+			(at 104.14 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0e75016-6bda-466c-aaee-37591bc3c566")
+		)
+		(pin "3V3_cpu" output
+			(at 41.91 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7aae9b0b-eb55-46d3-88eb-58d95f10b86f")
+		)
+		(pin "full_color_led" output
+			(at 111.76 121.92 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9abcae3e-42d3-4f83-b847-b2e020b43182")
+		)
 		(instances
 			(project "ORCA_CORE"
 				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
 					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
+		(size 15.24 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4046d1b-97e2-423b-a39b-40122b0e9f7a")
+		(property "Sheetname" "arm"
+			(at 190.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arm.kicad_sch"
+			(at 190.5 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ORCA_CORE"
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1"
+					(page "6")
 				)
 			)
 		)

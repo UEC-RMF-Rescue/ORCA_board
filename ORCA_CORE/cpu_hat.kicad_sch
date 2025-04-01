@@ -1,0 +1,498 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "96df5632-b40e-4905-bacc-a7105014637d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:GND1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 27.94 86.36)
+		(end 58.42 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 266ba001-a2da-4528-9b40-968cbac5f686)
+	)
+	(rectangle
+		(start 27.94 50.8)
+		(end 58.42 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c694eb1-0d90-4f17-bdbf-55a199f0a226)
+	)
+	(rectangle
+		(start 27.94 68.58)
+		(end 58.42 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac2e9119-ade9-4b01-ab5b-5c556d953768)
+	)
+	(rectangle
+		(start 27.94 27.94)
+		(end 58.42 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid face31de-36b2-4486-8f9e-7dff42614638)
+	)
+	(text "power"
+		(exclude_from_sim no)
+		(at 30.48 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ba4f119-b61b-49f3-9a3c-bb4f0636fc24")
+	)
+	(text "arm servo"
+		(exclude_from_sim no)
+		(at 32.512 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53c33c17-780c-4d71-8e5a-c8a311d10e95")
+	)
+	(text "fork motor\n"
+		(exclude_from_sim no)
+		(at 33.02 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c79dc02d-0be6-458b-ad88-f244d83538a2")
+	)
+	(text "arm motor\n"
+		(exclude_from_sim no)
+		(at 32.766 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef66caf5-a506-41c3-9022-0aafffc6adbd")
+	)
+	(global_label "Vin_cpu"
+		(shape input)
+		(at 43.18 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "001f354a-9f1a-4b16-ab73-711376d5245c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.9982 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "motor_2"
+		(shape input)
+		(at 40.64 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0134a807-6063-4231-99f6-52593d5a4cd2")
+	)
+	(hierarchical_label "IN_B_arm"
+		(shape input)
+		(at 41.91 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "030fecf6-edc5-46a9-ae90-9afc4a14a10f")
+	)
+	(hierarchical_label "IN_B_arm_out"
+		(shape output)
+		(at 41.91 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13c1c630-7dca-4db4-93b4-4369ff4dcd85")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cbb43f6-ca4a-42ae-91d7-568dc75a530f")
+	)
+	(hierarchical_label "IN_B_fork_out"
+		(shape output)
+		(at 41.91 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c4638eb-8dbb-4c09-b737-407662ca7a0e")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 43.18 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4217235c-cf96-4d53-b18a-e127409255d8")
+	)
+	(hierarchical_label "IN_A_arm_out"
+		(shape output)
+		(at 41.91 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55117bb6-16df-4439-9b6f-4ec118ea44e4")
+	)
+	(hierarchical_label "motor_1"
+		(shape input)
+		(at 40.64 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "630f2ea3-9b72-4bf4-a1a8-f06ad7b8df9f")
+	)
+	(hierarchical_label "motor_2_out"
+		(shape output)
+		(at 40.64 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c822db9-360b-4d2a-9aee-63e4c593cce8")
+	)
+	(hierarchical_label "IN_B_fork"
+		(shape input)
+		(at 41.91 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f6e1e59-7b6c-4ddb-9997-819e5c83358a")
+	)
+	(hierarchical_label "motor_0"
+		(shape input)
+		(at 40.64 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "866471c1-5fd3-4aa8-8603-d12554df512e")
+	)
+	(hierarchical_label "motor_1_out"
+		(shape output)
+		(at 40.64 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98400432-74cc-4883-8b83-4ec2afaad014")
+	)
+	(hierarchical_label "motor_3_out"
+		(shape output)
+		(at 40.64 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a279341f-bcd9-4b50-bf81-e61628b89d9e")
+	)
+	(hierarchical_label "IN_A_fork"
+		(shape input)
+		(at 41.91 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1065d65-5b31-4676-a2ab-1430f268938c")
+	)
+	(hierarchical_label "motor_3"
+		(shape input)
+		(at 40.64 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e84a3dd1-5eec-48e7-a1ed-96dd1aa6376e")
+	)
+	(hierarchical_label "IN_A_fork_out"
+		(shape output)
+		(at 41.91 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea8bbc91-4659-4ed3-9114-e86f533f0afa")
+	)
+	(hierarchical_label "IN_A_arm"
+		(shape input)
+		(at 41.91 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f84d254b-21a3-4eab-867c-31d14252ae5e")
+	)
+	(hierarchical_label "motor_0_out"
+		(shape output)
+		(at 40.64 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8c48f8-5c1b-4089-ae3f-33171d36d483")
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 40.64 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f276e5-fbf2-489f-8756-b92c5ef34aed")
+		(property "Reference" "#PWR054"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 44.45 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1540e8a9-65dd-42c1-bbd8-3b105ee6bb80")
+		)
+		(instances
+			(project ""
+				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/d48a95a9-5d4a-4154-9fc5-1311b9393ae9"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
