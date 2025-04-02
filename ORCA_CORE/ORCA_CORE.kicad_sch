@@ -2211,7 +2211,7 @@
 		)
 		(uuid "663b2318-8aea-45e9-89db-8c327bbfd340")
 		(property "Sheetname" "external_input"
-			(at 43.18 141.5284 0)
+			(at 42.4684 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,8 +2219,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "external_input.kicad_sch"
-			(at 43.18 173.3046 0)
+		(property "Sheetfile" "cpu_hat.kicad_sch"
+			(at 130.1246 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2573,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 24.13)
+		(at 138.43 26.67)
 		(size 33.02 97.79)
 		(fields_autoplaced yes)
 		(stroke
@@ -2584,8 +2584,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d48a95a9-5d4a-4154-9fc5-1311b9393ae9")
-		(property "Sheetname" "cpu_hat"
-			(at 138.43 23.4184 0)
+		(property "Sheetname" "external_input"
+			(at 138.43 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,8 +2593,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "cpu_hat.kicad_sch"
-			(at 138.43 122.5046 0)
+		(property "Sheetfile" "external_input.kicad_sch"
+			(at 138.43 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,8 +2602,17 @@
 				(justify left top)
 			)
 		)
+		(property "フィールド2" ""
+			(at 138.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "IN_B_fork" input
-			(at 138.43 62.23 180)
+			(at 138.43 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2622,7 @@
 			(uuid "e4f02e63-65d3-4cc3-b313-51aca4a5ea4d")
 		)
 		(pin "IN_B_fork_out" output
-			(at 171.45 58.42 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2632,7 @@
 			(uuid "a6c21113-775a-4bff-b5d8-dacd032f6bba")
 		)
 		(pin "IN_A_fork" input
-			(at 138.43 59.69 180)
+			(at 138.43 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2642,7 @@
 			(uuid "6133c39a-86d9-41fe-bf18-b847e88a00be")
 		)
 		(pin "IN_A_arm" input
-			(at 138.43 72.39 180)
+			(at 138.43 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2652,7 @@
 			(uuid "ed5933fe-5d98-4c70-baee-56c6e4f1790d")
 		)
 		(pin "IN_B_arm" input
-			(at 138.43 74.93 180)
+			(at 138.43 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2662,7 @@
 			(uuid "dab327ce-2671-4edd-b244-28f151b7a5cc")
 		)
 		(pin "IN_B_arm_out" output
-			(at 171.45 71.12 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2672,7 @@
 			(uuid "3586959d-e155-448b-98ab-ef0f48e316dd")
 		)
 		(pin "IN_A_arm_out" output
-			(at 171.45 68.58 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2682,7 @@
 			(uuid "97f8c76a-ca7a-4ed9-82e7-5bcfb31de315")
 		)
 		(pin "motor_1_out" output
-			(at 171.45 87.63 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2692,7 @@
 			(uuid "36b5ce1e-66a1-4ded-9bda-9fe91763b148")
 		)
 		(pin "motor_3" input
-			(at 138.43 87.63 180)
+			(at 138.43 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2702,7 @@
 			(uuid "305e58cb-2cb4-41a5-8467-2e95359698ff")
 		)
 		(pin "motor_0_out" output
-			(at 171.45 85.09 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2712,7 @@
 			(uuid "316a6a88-42d5-4015-89c1-afa3041d27ed")
 		)
 		(pin "motor_1" input
-			(at 138.43 82.55 180)
+			(at 138.43 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2722,7 @@
 			(uuid "f19b5bbb-4a6c-4e6f-b8ef-cea6b858a293")
 		)
 		(pin "motor_0" input
-			(at 138.43 80.01 180)
+			(at 138.43 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2732,7 @@
 			(uuid "f34ae69d-935f-4cb2-bc3a-6c158ad6ea46")
 		)
 		(pin "motor_2" input
-			(at 138.43 85.09 180)
+			(at 138.43 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2742,7 @@
 			(uuid "5b798ff5-3886-495f-8337-0eeda35be334")
 		)
 		(pin "IN_A_fork_out" output
-			(at 171.45 55.88 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2752,7 @@
 			(uuid "6470ce59-0bcc-4fbc-9406-ae6b4032d0d2")
 		)
 		(pin "GND" input
-			(at 166.37 121.92 270)
+			(at 166.37 124.46 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2762,7 @@
 			(uuid "503627e4-b33a-442d-b4cb-32e242151b39")
 		)
 		(pin "Vin" input
-			(at 138.43 30.48 180)
+			(at 138.43 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2772,7 @@
 			(uuid "7e119c5a-540a-4862-8bb9-8203c6a25c0a")
 		)
 		(pin "motor_2_out" output
-			(at 171.45 90.17 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2782,7 @@
 			(uuid "4bf37d1c-1c9a-4a01-b7a3-f7b6a42ecbe5")
 		)
 		(pin "motor_3_out" output
-			(at 171.45 92.71 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

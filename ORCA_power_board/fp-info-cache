@@ -1,4 +1,4 @@
-25030835888214205
+25034322724383705
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6482,12 +6482,26 @@ AMASS_XT30U-F_Vertical_withmodel_male
 2
 2
 Conn
+AMASS_XT60_Vertifcal_withmodel_female
+
+
+0
+2
+2
+Conn
 PinHeader_03x04_P2.54mm_Vertical
 PH-3X4SG
 
 0
 12
 3
+Conn
+USB315030130A
+USB3150-30-130-A-1
+Connector
+0
+11
+11
 Conn
 USB_C_Receptacle_XKB_U262-16XN-4BVC11
 USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf
