@@ -2199,8 +2199,8 @@
 		)
 	)
 	(sheet
-		(at 43.18 142.24)
-		(size 86.36 30.48)
+		(at 140.97 24.13)
+		(size 30.48 97.79)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2210,8 +2210,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "663b2318-8aea-45e9-89db-8c327bbfd340")
-		(property "Sheetname" "external_input"
-			(at 42.4684 172.72 90)
+		(property "Sheetname" "cpu_hat"
+			(at 140.97 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2220,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu_hat.kicad_sch"
-			(at 130.1246 172.72 90)
+			(at 140.97 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,105 +2228,185 @@
 				(justify left top)
 			)
 		)
-		(pin "RXD_uart" bidirectional
-			(at 62.23 142.24 90)
+		(pin "IN_B_fork" input
+			(at 140.97 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "aa0d0ebf-8fe9-4f0b-b8b5-71622784fc6d")
+			(uuid "b56026e0-91ad-4f9e-9186-bb908f7ea7ad")
 		)
-		(pin "TXD_uart" bidirectional
-			(at 69.85 142.24 90)
+		(pin "IN_B_fork_out" output
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a37492c-3ffc-4db0-802f-ff8724c0956b")
+			(uuid "c2dce4b3-1823-41e8-8bf7-3eb3ba08c659")
 		)
-		(pin "GND_uart" output
-			(at 67.31 142.24 90)
+		(pin "IN_A_fork" input
+			(at 140.97 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "c644b569-20a0-4a91-ac76-5e17c3e122f1")
+			(uuid "83e00105-11f0-44ca-841c-81bb544b6488")
 		)
-		(pin "+5V_uart" output
-			(at 64.77 142.24 90)
+		(pin "IN_A_arm" input
+			(at 140.97 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "80ab4927-5c65-4dc3-8ca7-47b69856bdc1")
+			(uuid "d21e108d-e249-48ab-bc9a-315befde3852")
 		)
-		(pin "GND_led" input
-			(at 82.55 142.24 90)
+		(pin "IN_B_arm" input
+			(at 140.97 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "2326d844-3a6d-48a9-8823-c50f0fbbe041")
+			(uuid "3ae202ff-e7bb-4c21-a4e3-bc59a37004db")
 		)
-		(pin "+5V_led" input
-			(at 80.01 142.24 90)
+		(pin "IN_B_arm_out" output
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "29aff129-15a0-45d5-9e00-850af270afac")
+			(uuid "7e1c02fd-1bff-488b-b738-d097828e0413")
 		)
-		(pin "full_color_led" input
-			(at 77.47 142.24 90)
+		(pin "IN_A_arm_out" output
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8343e918-0ba2-437e-8f24-b7213ec4c58e")
+			(uuid "ee46c077-5172-42b9-9952-56b4ac1b15aa")
 		)
-		(pin "3V3_reset" input
-			(at 91.44 142.24 90)
+		(pin "IN_A_fork_out" output
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6e479a4c-56db-41c8-a94a-2e274101fc7b")
+			(uuid "87989951-5986-48ca-875f-71a8aecffae8")
 		)
-		(pin "GND_reset" input
-			(at 93.98 142.24 90)
+		(pin "GND" input
+			(at 168.91 121.92 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "aa5163a8-fd7d-4f1f-a68b-b363480318b3")
+			(uuid "925be4fc-1672-4673-939d-8e2a5b975ca3")
 		)
-		(pin "sw_reset" output
-			(at 88.9 142.24 90)
+		(pin "Vin" input
+			(at 140.97 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1367ef7b-bfe4-4c59-a3e7-6bf2470cd071")
+		)
+		(pin "servo_2" input
+			(at 140.97 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da6d820a-d36a-4f18-b0cc-88305dd4b298")
+		)
+		(pin "servo_0" input
+			(at 140.97 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cde876e1-5897-49d1-b2f1-992dfef18b02")
+		)
+		(pin "servo_1" input
+			(at 140.97 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b668e29-9ba3-4447-8790-f6ec63615c2e")
+		)
+		(pin "servo_3" input
+			(at 140.97 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bccd00fb-03f1-4ac0-b4d8-e913c6c4f6c5")
+		)
+		(pin "servo_0_out" output
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0d7e5a6f-2240-4bdf-b12a-f940ea341ada")
+			(uuid "8caa799a-d585-422c-ad70-af3dda9a5d79")
+		)
+		(pin "servo_2_out" output
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30bb082f-988f-4f40-a7cc-dd63a4e9beaf")
+		)
+		(pin "servo_1_out" output
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8722fa9f-2440-47fb-996f-f36c9fdae8ac")
+		)
+		(pin "servo_3_out" output
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b9e61c2-5931-4f92-86af-9b81d17d6a20")
 		)
 		(instances
 			(project "ORCA_CORE"
@@ -2573,8 +2653,8 @@
 		)
 	)
 	(sheet
-		(at 138.43 26.67)
-		(size 33.02 97.79)
+		(at 43.18 137.16)
+		(size 97.79 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2584,8 +2664,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d48a95a9-5d4a-4154-9fc5-1311b9393ae9")
-		(property "Sheetname" "external_input"
-			(at 138.43 25.9584 0)
+		(property "Sheetname" "external_io"
+			(at 43.18 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,8 +2673,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "external_input.kicad_sch"
-			(at 138.43 125.0446 0)
+		(property "Sheetfile" "external_io.kicad_sch"
+			(at 43.18 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2683,7 @@
 			)
 		)
 		(property "フィールド2" ""
-			(at 138.43 26.67 0)
+			(at 76.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,185 +2691,105 @@
 				(hide yes)
 			)
 		)
-		(pin "IN_B_fork" input
-			(at 138.43 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e4f02e63-65d3-4cc3-b313-51aca4a5ea4d")
-		)
-		(pin "IN_B_fork_out" output
-			(at 171.45 60.96 0)
+		(pin "+5V_uart" input
+			(at 74.93 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a6c21113-775a-4bff-b5d8-dacd032f6bba")
+			(uuid "41f344ee-ddbf-4ab6-980b-834314e76133")
 		)
-		(pin "IN_A_fork" input
-			(at 138.43 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6133c39a-86d9-41fe-bf18-b847e88a00be")
-		)
-		(pin "IN_A_arm" input
-			(at 138.43 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ed5933fe-5d98-4c70-baee-56c6e4f1790d")
-		)
-		(pin "IN_B_arm" input
-			(at 138.43 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dab327ce-2671-4edd-b244-28f151b7a5cc")
-		)
-		(pin "IN_B_arm_out" output
-			(at 171.45 73.66 0)
+		(pin "TXD_uart" bidirectional
+			(at 77.47 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3586959d-e155-448b-98ab-ef0f48e316dd")
+			(uuid "8ad10df8-8c4d-42cf-86a7-5d7bf2875733")
 		)
-		(pin "IN_A_arm_out" output
-			(at 171.45 71.12 0)
+		(pin "RXD_uart" bidirectional
+			(at 80.01 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97f8c76a-ca7a-4ed9-82e7-5bcfb31de315")
+			(uuid "33268066-9a71-499e-851f-cf1b8bfba48c")
 		)
-		(pin "motor_1_out" output
-			(at 171.45 90.17 0)
+		(pin "full_color_led" input
+			(at 92.71 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "36b5ce1e-66a1-4ded-9bda-9fe91763b148")
+			(uuid "c0ae1510-b9fc-4241-93ef-60a5b7322e5b")
 		)
-		(pin "motor_3" input
-			(at 138.43 90.17 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "305e58cb-2cb4-41a5-8467-2e95359698ff")
-		)
-		(pin "motor_0_out" output
-			(at 171.45 87.63 0)
+		(pin "GND_led" input
+			(at 97.79 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "316a6a88-42d5-4015-89c1-afa3041d27ed")
+			(uuid "a0063cc3-9ece-42e1-97c7-9ea17afa21fe")
 		)
-		(pin "motor_1" input
-			(at 138.43 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f19b5bbb-4a6c-4e6f-b8ef-cea6b858a293")
-		)
-		(pin "motor_0" input
-			(at 138.43 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f34ae69d-935f-4cb2-bc3a-6c158ad6ea46")
-		)
-		(pin "motor_2" input
-			(at 138.43 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5b798ff5-3886-495f-8337-0eeda35be334")
-		)
-		(pin "IN_A_fork_out" output
-			(at 171.45 58.42 0)
+		(pin "+5V_led" input
+			(at 95.25 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6470ce59-0bcc-4fbc-9406-ae6b4032d0d2")
+			(uuid "5a40d19e-3e60-4d22-a486-1ebc1d704980")
 		)
-		(pin "GND" input
-			(at 166.37 124.46 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "503627e4-b33a-442d-b4cb-32e242151b39")
-		)
-		(pin "Vin" input
-			(at 138.43 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7e119c5a-540a-4862-8bb9-8203c6a25c0a")
-		)
-		(pin "motor_2_out" output
-			(at 171.45 92.71 0)
+		(pin "GND_uart" input
+			(at 82.55 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4bf37d1c-1c9a-4a01-b7a3-f7b6a42ecbe5")
+			(uuid "8581f7b2-aa25-4daf-9569-5b4437669745")
 		)
-		(pin "motor_3_out" output
-			(at 171.45 95.25 0)
+		(pin "GND_reset" input
+			(at 115.57 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "823f5a69-f13a-4e78-88cf-942d0d3ecdcf")
+			(uuid "f85eda47-f1cd-4344-b920-d805335c3b14")
+		)
+		(pin "3V3_reset" input
+			(at 113.03 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd3fc5ac-1aae-40ad-be4a-8fbd376a4683")
+		)
+		(pin "sw_reset" output
+			(at 110.49 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1669fe25-8afa-407a-9637-9b8cc5e81d2d")
 		)
 		(instances
 			(project "ORCA_CORE"
@@ -2967,8 +2967,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 25.4)
-		(size 15.24 17.78)
+		(at 213.36 17.78)
+		(size 27.94 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2979,7 +2979,7 @@
 		)
 		(uuid "f4046d1b-97e2-423b-a39b-40122b0e9f7a")
 		(property "Sheetname" "arm"
-			(at 190.5 24.6884 0)
+			(at 213.36 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,13 +2988,73 @@
 			)
 		)
 		(property "Sheetfile" "arm.kicad_sch"
-			(at 190.5 43.7646 0)
+			(at 213.36 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "servo_0" input
+			(at 213.36 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c6fad18-00b1-445c-af74-15cfc6508a32")
+		)
+		(pin "enable_arm" input
+			(at 213.36 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c28fc987-6917-4eb7-9074-b8afbd2b67e7")
+		)
+		(pin "GND_cpu" bidirectional
+			(at 213.36 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdb46ace-ab4f-4371-85ff-0f243dfaca6d")
+		)
+		(pin "Vin_cpu" input
+			(at 213.36 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02800b9e-eb20-4e7f-81ed-f1f5327904f2")
+		)
+		(pin "Vin_arm" input
+			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8be4fff-5f14-49e4-ae4d-798c14b40a09")
+		)
+		(pin "GND_arm" bidirectional
+			(at 241.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea7b264e-4b6d-4152-b9ee-68797fd96881")
 		)
 		(instances
 			(project "ORCA_CORE"

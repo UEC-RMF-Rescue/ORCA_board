@@ -212,18 +212,6 @@
 			)
 		)
 	)
-	(hierarchical_label "motor_2"
-		(shape input)
-		(at 40.64 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0134a807-6063-4231-99f6-52593d5a4cd2")
-	)
 	(hierarchical_label "IN_B_arm"
 		(shape input)
 		(at 41.91 74.93 180)
@@ -296,30 +284,6 @@
 		)
 		(uuid "55117bb6-16df-4439-9b6f-4ec118ea44e4")
 	)
-	(hierarchical_label "motor_1"
-		(shape input)
-		(at 40.64 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "630f2ea3-9b72-4bf4-a1a8-f06ad7b8df9f")
-	)
-	(hierarchical_label "motor_2_out"
-		(shape output)
-		(at 40.64 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c822db9-360b-4d2a-9aee-63e4c593cce8")
-	)
 	(hierarchical_label "IN_B_fork"
 		(shape input)
 		(at 41.91 57.15 180)
@@ -332,7 +296,7 @@
 		)
 		(uuid "7f6e1e59-7b6c-4ddb-9997-819e5c83358a")
 	)
-	(hierarchical_label "motor_0"
+	(hierarchical_label "servo_0"
 		(shape input)
 		(at 40.64 88.9 180)
 		(fields_autoplaced yes)
@@ -344,7 +308,7 @@
 		)
 		(uuid "866471c1-5fd3-4aa8-8603-d12554df512e")
 	)
-	(hierarchical_label "motor_1_out"
+	(hierarchical_label "servo_1_out"
 		(shape output)
 		(at 40.64 91.44 0)
 		(fields_autoplaced yes)
@@ -354,9 +318,9 @@
 			)
 			(justify left)
 		)
-		(uuid "98400432-74cc-4883-8b83-4ec2afaad014")
+		(uuid "8d63646d-fab2-44d2-ae51-6405b4f6dc9e")
 	)
-	(hierarchical_label "motor_3_out"
+	(hierarchical_label "servo_3_out"
 		(shape output)
 		(at 40.64 96.52 0)
 		(fields_autoplaced yes)
@@ -366,7 +330,31 @@
 			)
 			(justify left)
 		)
-		(uuid "a279341f-bcd9-4b50-bf81-e61628b89d9e")
+		(uuid "aaf39180-6665-4d46-84fb-ab5f2fdd027e")
+	)
+	(hierarchical_label "servo_1"
+		(shape input)
+		(at 40.64 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ba326c-5682-477a-a21c-50bc86bf3842")
+	)
+	(hierarchical_label "servo_2"
+		(shape input)
+		(at 40.64 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c858b903-a7df-421c-9a38-e761d7a4980e")
 	)
 	(hierarchical_label "IN_A_fork"
 		(shape input)
@@ -380,17 +368,17 @@
 		)
 		(uuid "d1065d65-5b31-4676-a2ab-1430f268938c")
 	)
-	(hierarchical_label "motor_3"
-		(shape input)
-		(at 40.64 96.52 180)
+	(hierarchical_label "servo_2_out"
+		(shape output)
+		(at 40.64 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e84a3dd1-5eec-48e7-a1ed-96dd1aa6376e")
+		(uuid "e5a93dc7-5479-4579-9aef-2a7aafe14b23")
 	)
 	(hierarchical_label "IN_A_fork_out"
 		(shape output)
@@ -416,7 +404,19 @@
 		)
 		(uuid "f84d254b-21a3-4eab-867c-31d14252ae5e")
 	)
-	(hierarchical_label "motor_0_out"
+	(hierarchical_label "servo_3"
+		(shape input)
+		(at 40.64 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9f62f34-af52-41a3-a649-f139d2aa3722")
+	)
+	(hierarchical_label "servo_0_out"
 		(shape output)
 		(at 40.64 88.9 0)
 		(fields_autoplaced yes)
