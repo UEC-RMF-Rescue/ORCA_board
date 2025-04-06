@@ -2949,7 +2949,7 @@
 		)
 	)
 	(global_label "+6V_out"
-		(shape input)
+		(shape output)
 		(at 170.18 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3103,7 +3103,7 @@
 		)
 	)
 	(global_label "+3V3"
-		(shape input)
+		(shape output)
 		(at 259.08 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3124,7 +3124,7 @@
 			)
 		)
 	)
-	(global_label "+6V"
+	(global_label "+6V_in"
 		(shape input)
 		(at 53.34 71.12 0)
 		(fields_autoplaced yes)
@@ -3136,7 +3136,7 @@
 		)
 		(uuid "f21b9674-ce59-4872-97da-286621c4558e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1957 71.12 0)
+			(at 62.9171 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
