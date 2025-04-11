@@ -2928,7 +2928,7 @@
 	)
 	(global_label "Vin_cpu"
 		(shape input)
-		(at 34.29 43.18 180)
+		(at 35.56 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2938,7 +2938,7 @@
 		)
 		(uuid "924f00df-6366-4079-b4bb-1869a9e721cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1082 43.18 0)
+			(at 25.3782 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,28 +3058,6 @@
 			)
 		)
 	)
-	(global_label "+6V_in"
-		(shape input)
-		(at 34.29 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d01c2bf5-5122-4e7d-9f43-2bf6d075be05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.7129 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vin_cpu"
 		(shape input)
 		(at 80.01 132.08 180)
@@ -3126,7 +3104,7 @@
 	)
 	(global_label "+6V_in"
 		(shape input)
-		(at 53.34 71.12 0)
+		(at 53.34 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3136,7 +3114,7 @@
 		)
 		(uuid "f21b9674-ce59-4872-97da-286621c4558e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.9171 71.12 0)
+			(at 62.9171 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,21 +3190,9 @@
 			)
 		)
 	)
-	(hierarchical_label "GND_arm"
-		(shape bidirectional)
-		(at 66.04 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0081aba6-6eda-4809-90ae-5366942850ca")
-	)
 	(hierarchical_label "GND_cpu"
 		(shape bidirectional)
-		(at 66.04 43.18 180)
+		(at 67.31 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3296,21 +3262,9 @@
 		)
 		(uuid "8f8491a4-18c6-4346-9374-e1f69a4eb339")
 	)
-	(hierarchical_label "Vin_arm"
-		(shape input)
-		(at 34.29 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbe651c6-cbb8-4b54-933e-1956dd382dfe")
-	)
 	(hierarchical_label "Vin_cpu"
 		(shape input)
-		(at 34.29 43.18 0)
+		(at 35.56 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3418,7 +3372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.318 35.56 90)
 			(effects
 				(font
@@ -3455,73 +3409,6 @@
 			(project "ORCA_CORE"
 				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/f4046d1b-97e2-423b-a39b-40122b0e9f7a"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03a23441-5e4f-4d37-a53c-bb0febf72027")
-		(property "Reference" "#PWR061"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e63a79f6-a474-4169-9f03-128b809ea3dd")
-		)
-		(instances
-			(project "ORCA_CORE"
-				(path "/895d6bb7-4008-488b-a34b-0077e9f7e4a1/f4046d1b-97e2-423b-a39b-40122b0e9f7a"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3622,7 +3509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -3906,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 208.28 118.618 90)
 			(effects
 				(font
@@ -4179,7 +4066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 43.688 90)
 			(effects
 				(font
@@ -4391,7 +4278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.058 110.49 90)
 			(effects
 				(font
@@ -4536,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 152.4 43.688 90)
 			(effects
 				(font
@@ -4604,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 118.618 90)
 			(effects
 				(font
@@ -4674,7 +4561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -4787,7 +4674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 66.04 43.18 90)
+		(at 67.31 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +4683,7 @@
 		(fields_autoplaced yes)
 		(uuid "65904be6-d59e-4c36-beb5-ce4c8432c3ad")
 		(property "Reference" "#PWR062"
-			(at 72.39 43.18 0)
+			(at 73.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4692,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 69.85 43.1799 90)
+			(at 71.12 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 43.18 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 43.18 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 66.04 43.18 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 146.558 90)
 			(effects
 				(font
@@ -5025,7 +4912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 220.98 124.46 0)
 			(effects
 				(font
@@ -5096,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 208.28 146.558 90)
 			(effects
 				(font
@@ -5140,7 +5027,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 73.66 90)
+		(at 53.34 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5149,7 +5036,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c3b8f6-8024-4061-ae62-096652d4228a")
 		(property "Reference" "#PWR060"
-			(at 59.69 73.66 0)
+			(at 59.69 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 73.6599 90)
+			(at 57.15 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 73.66 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 73.66 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 73.66 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.07 146.558 90)
 			(effects
 				(font
@@ -5466,7 +5353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.198 138.43 90)
 			(effects
 				(font
@@ -5680,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 146.558 90)
 			(effects
 				(font
@@ -5724,7 +5611,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 48.26 73.66 180)
+		(at 48.26 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5733,7 +5620,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6c319d3-017d-4d4d-86c0-9f66c361ab02")
 		(property "Reference" "J26"
-			(at 48.26 64.77 0)
+			(at 48.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5628,7 @@
 			)
 		)
 		(property "Value" "Vin_motor"
-			(at 48.26 67.31 0)
+			(at 48.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5636,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 48.26 73.66 0)
+			(at 48.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 73.66 0)
+			(at 48.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5654,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 73.66 0)
+			(at 48.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.07 118.618 90)
 			(effects
 				(font
@@ -6225,7 +6112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 116.84 124.46 0)
 			(effects
 				(font
@@ -6498,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 118.618 90)
 			(effects
 				(font
@@ -6568,7 +6455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.198 110.49 90)
 			(effects
 				(font
@@ -6638,7 +6525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.058 138.43 90)
 			(effects
 				(font
