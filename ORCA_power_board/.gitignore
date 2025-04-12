@@ -2,3 +2,4 @@ ORCA_power_board-backups
 *.net
 plot
 plot.zip
+./#auto_saved_files*
