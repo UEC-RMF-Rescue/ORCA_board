@@ -136,14 +136,14 @@
 			(pin passive line
 				(at 8.89 -3.81 180)
 				(length 2.54)
-				(name "OUT_B"
+				(name "OUT_B2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "５"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,14 +154,14 @@
 			(pin passive line
 				(at 8.89 -1.27 180)
 				(length 2.54)
-				(name "OUT_B"
+				(name "OUT_B1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "６"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,14 +172,14 @@
 			(pin passive line
 				(at 8.89 1.27 180)
 				(length 2.54)
-				(name "OUT_A"
+				(name "OUT_A2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "７"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,14 +190,14 @@
 			(pin passive line
 				(at 8.89 3.81 180)
 				(length 2.54)
-				(name "OUT_A"
+				(name "OUT_A1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "８"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
