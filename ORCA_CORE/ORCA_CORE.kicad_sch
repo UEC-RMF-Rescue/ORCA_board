@@ -5655,7 +5655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 127 128.27 0)
 			(effects
 				(font
@@ -5776,7 +5776,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "243a8a3a-67ea-42e1-a135-2b7b0ed49b6b")
 		(property "Reference" "J33"
 			(at 109.22 81.28 0)
@@ -5786,7 +5785,7 @@
 				)
 			)
 		)
-		(property "Value" "cpu_male_2"
+		(property "Value" "cpu_female_left"
 			(at 109.22 83.82 0)
 			(effects
 				(font
@@ -5794,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 107.95 92.71 0)
 			(effects
 				(font
@@ -6295,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Value" "cpu_female_2"
+		(property "Value" "cpu_male_left"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -6442,7 +6441,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d98a148-ba16-482f-9f1e-4e9b089bf2e5")
 		(property "Reference" "J34"
 			(at 109.22 12.7 0)
@@ -6452,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Value" "cpu_male_1"
+		(property "Value" "cpu_female_right"
 			(at 109.22 15.24 0)
 			(effects
 				(font
@@ -6460,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -9734,7 +9732,7 @@
 				)
 			)
 		)
-		(property "Value" "hat_female_1"
+		(property "Value" "hat_male_right"
 			(at 138.43 15.24 0)
 			(effects
 				(font
@@ -9958,7 +9956,7 @@
 			(uuid "b56026e0-91ad-4f9e-9186-bb908f7ea7ad")
 		)
 		(pin "IN_B_fork_out" output
-			(at 213.36 91.44 0)
+			(at 213.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9996,7 @@
 			(uuid "3ae202ff-e7bb-4c21-a4e3-bc59a37004db")
 		)
 		(pin "IN_B_arm_out" output
-			(at 213.36 124.46 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10006,7 @@
 			(uuid "7e1c02fd-1bff-488b-b738-d097828e0413")
 		)
 		(pin "IN_A_arm_out" output
-			(at 213.36 121.92 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10016,7 @@
 			(uuid "ee46c077-5172-42b9-9952-56b4ac1b15aa")
 		)
 		(pin "IN_A_fork_out" output
-			(at 213.36 88.9 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8986,7 +8986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cpu:raspberrypi_Zero_W_Vertical"
+		(property "Footprint" "cpu:raspberrypi_Zerp_W_horisontal"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -11103,7 +11103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 66.04 187.96 0)
 			(effects
 				(font
@@ -11788,7 +11788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU:BNO055"
+		(property "Footprint" "IMU:BNO055_short"
 			(at 60.96 72.39 0)
 			(effects
 				(font
@@ -14476,7 +14476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 144.78 156.21 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25034322724383705
+25041305132199120
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6489,6 +6489,13 @@ AMASS_XT60_Vertifcal_withmodel_female
 2
 2
 Conn
+CUIDEVICES_UJ2-MIBH-4-SMT-TR
+
+
+0
+11
+11
+Conn
 PinHeader_03x04_P2.54mm_Vertical
 PH-3X4SG
 
@@ -6509,6 +6516,13 @@ USB C Type-C Receptacle SMD
 0
 20
 17
+Conn
+ZX60-B-5S(31)
+
+
+0
+9
+6
 Conn
 power_pad
 
@@ -58498,6 +58512,13 @@ BNO055
 0
 8
 8
+IMU
+BNO055_short
+
+
+0
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -98913,6 +98934,13 @@ cpu
 raspberrypi_Zero_W_Vertical
 Through hole angled socket strip, 2x20, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
 Through hole angled socket strip THT 2x20 2.54mm double row
+0
+40
+40
+cpu
+raspberrypi_Zerp_W_horisontal
+
+
 0
 40
 40

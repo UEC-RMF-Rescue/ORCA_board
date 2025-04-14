@@ -1,0 +1,176 @@
+(footprint "ZX60-B-5S(31)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd63360c-2f80-4213-b33c-949199c68f6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ZX60-B-5S(31)"
+		(at 11.43 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c21c0c6-c3f3-4f5c-90dd-18c502a4acbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -16.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b96042d-0507-4f94-9ae3-58c382c71330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -16.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c76aa72-3715-43cb-8d65-4c2cb149aa20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -16.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e9d6bd-845e-4ec1-8d60-1215903463e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -5)
+		(end 10 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "660b76c4-1ea1-43ad-a667-d591164c03a2")
+	)
+	(fp_line
+		(start 7.625 -2.5)
+		(end 7.625 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "35382525-f832-4fb4-bf23-9886b43363e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.93 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9f2f7e5-a157-46cd-a952-cf4082f52e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 7.625 -1.3 90)
+		(size 0.35 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f8362a04-9abe-47a2-89fe-19f31e582426")
+	)
+	(pad "2" smd rect
+		(at 7.625 -0.65 90)
+		(size 0.35 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83358140-0fea-4092-ad10-94f7c3c8a715")
+	)
+	(pad "3" smd rect
+		(at 7.625 0 90)
+		(size 0.35 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fde24ba5-2572-43f0-90ea-d68ef1f517f2")
+	)
+	(pad "4" smd rect
+		(at 7.62 0.65 90)
+		(size 0.35 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "13fa834f-38d6-4bc2-a271-59fa29c40b3f")
+	)
+	(pad "5" smd rect
+		(at 7.62 1.3 90)
+		(size 0.35 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e98ea340-bc8c-4b3e-b0dc-c52e3cd59acc")
+	)
+	(pad "SH" thru_hole oval
+		(at 3.35 -4.1 90)
+		(size 1.1 2.4)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a9ffa28-32f0-478f-a4f2-6089182b8128")
+	)
+	(pad "SH" thru_hole oval
+		(at 3.35 4.1 90)
+		(size 1.1 2.4)
+		(drill oval 0.5 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6fa8fb1a-da65-4602-82f5-6897b921ab07")
+	)
+	(pad "SH" thru_hole oval
+		(at 7.4 -4.1 90)
+		(size 1.1 2.8)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a7d1dc1-0276-4c95-945b-91cfe9ed25ab")
+	)
+	(pad "SH" thru_hole oval
+		(at 7.4 4.1 90)
+		(size 1.1 2.8)
+		(drill oval 0.5 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d393af32-bbe7-46a9-b37a-57627ada147f")
+	)
+	(model "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/step/ZX60-B-5S.stp"
+		(offset
+			(xyz 8 1 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
