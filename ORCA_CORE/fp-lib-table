@@ -16,4 +16,6 @@
   (lib (name "inductor")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Inductor/inductor.pretty")(options "")(descr ""))
   (lib (name "battery_case")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Battery/battery_case.pretty")(options "")(descr ""))
   (lib (name "converter_module")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Converter_module/converter_module.pretty")(options "")(descr ""))
+  (lib (name "Mouse_sensor")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Mouse_sensor.pretty")(options "")(descr ""))
+  (lib (name "mouse_sensor")(type "KiCad")(uri "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/Mouse_sensor/mouse_sensor.pretty")(options "")(descr ""))
 )
