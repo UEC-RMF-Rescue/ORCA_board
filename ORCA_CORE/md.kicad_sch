@@ -2620,7 +2620,7 @@
 		)
 		(uuid "4a3f61be-7c19-46ce-be7c-77b27c7eea3e")
 	)
-	(hierarchical_label "GND_cpu"
+	(hierarchical_label "GND_md"
 		(shape bidirectional)
 		(at 66.04 29.21 180)
 		(effects

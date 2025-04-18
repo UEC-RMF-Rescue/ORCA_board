@@ -10494,16 +10494,6 @@
 				(justify right)
 			)
 		)
-		(pin "TXD_5V" input
-			(at 90.17 34.29 0)
-			(uuid "7cba71ef-957f-482a-b873-663e37fab963")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SDA_cpu" input
 			(at 90.17 41.91 0)
 			(uuid "69b1a865-5164-45d4-a151-bdcddb0aa631")
@@ -10737,6 +10727,16 @@
 		(pin "emerge_detector" input
 			(at 90.17 26.67 0)
 			(uuid "76a89c62-6445-4c58-9285-0bc5f2b7d81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD_5V" output
+			(at 90.17 34.29 0)
+			(uuid "0bb2224e-9984-4b2b-84a6-cf72f7c3c241")
 			(effects
 				(font
 					(size 1.27 1.27)
