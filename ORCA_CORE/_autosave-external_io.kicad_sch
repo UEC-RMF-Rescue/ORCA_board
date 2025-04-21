@@ -4199,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_male"
+		(property "Footprint" "Conn:power_pad"
 			(at 212.09 40.64 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_male"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 231.14 40.64 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_male"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 218.44 40.64 0)
 			(effects
 				(font
@@ -5478,7 +5478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Kycon_KUSBX-AS1N-B_Horizontal"
+		(property "Footprint" "Conn:TypeA_connector_KUSBX-AS1N-B"
 			(at 217.17 134.62 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_male"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 224.79 40.64 0)
 			(effects
 				(font

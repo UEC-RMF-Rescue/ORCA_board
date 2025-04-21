@@ -1,4 +1,4 @@
-26115979682652874
+26121221181438327
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6579,6 +6579,13 @@ PH-3X4SG
 0
 12
 12
+Conn
+TypeA_connector_KUSBX-AS1N-B
+
+
+0
+6
+5
 Conn
 USB315030130A
 USB3150-30-130-A-1
@@ -66997,7 +67004,21 @@ ORCA_logo
 0
 0
 Logo
+ORCA_logo_large
+
+
+0
+0
+0
+Logo
 Robo
+
+
+0
+0
+0
+Logo
+名称未設定
 
 
 0

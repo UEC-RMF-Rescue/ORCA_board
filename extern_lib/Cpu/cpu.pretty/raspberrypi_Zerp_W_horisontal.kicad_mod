@@ -1,7 +1,7 @@
 (footprint "raspberrypi_Zerp_W_horisontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -22,19 +22,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "db008149-11d7-4d17-9e83-9c41484bc4e5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9b9f9824-b05d-4702-8dee-24fe25580449")
 		(effects
 			(font
 				(size 1 1)
@@ -1295,8 +1282,8 @@
 		(remove_unused_layers no)
 		(uuid "ac6f5cbe-72da-4008-bde1-0149f1bf4647")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/hibik/Documents/Robomech/RESCUE/ORCA/board/extern_lib/step/Raspberry_PI_Zero_W.step"
-		(hide yes)
 		(offset
 			(xyz 25.2 8.4 11)
 		)
