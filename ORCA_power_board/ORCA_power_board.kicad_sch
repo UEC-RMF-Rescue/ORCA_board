@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "895d6bb7-4008-488b-a34b-0077e9f7e4a1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,14 +76,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -96,14 +98,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -143,10 +145,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -213,8 +218,19 @@
 			)
 			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -235,25 +251,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -311,12 +316,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND1_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -407,6 +417,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -486,7 +497,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -503,6 +515,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
 			(power)
@@ -582,7 +595,8 @@
 			(symbol "GND1_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND1"
 						(effects
 							(font
@@ -599,6 +613,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND2"
 			(power)
@@ -678,7 +693,8 @@
 			(symbol "GND2_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND2"
 						(effects
 							(font
@@ -695,12 +711,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -791,6 +812,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1120,7 +1142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_male"
 			(at 158.75 121.92 0)
 			(effects
 				(font
@@ -1262,7 +1284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Conn:AMASS_XT30U-F_Vertical_withmodel_female"
 			(at 149.86 105.41 0)
 			(effects
 				(font
@@ -2452,6 +2474,10 @@
 	(sheet
 		(at 125.73 39.37)
 		(size 31.75 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2481,113 +2507,113 @@
 		)
 		(pin "Vout_usp" output
 			(at 149.86 88.9 270)
+			(uuid "c2b5ed76-2c58-44de-8a36-f3b4b61c5082")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c2b5ed76-2c58-44de-8a36-f3b4b61c5082")
 		)
 		(pin "Vout_motor" output
 			(at 157.48 44.45 0)
+			(uuid "d1ffdb2f-80f5-41b2-b91a-6867efa4a0f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d1ffdb2f-80f5-41b2-b91a-6867efa4a0f7")
 		)
 		(pin "Vin_bat" input
 			(at 125.73 41.91 180)
+			(uuid "1be2a3e8-f594-41a4-9cff-e1bd9c3f0868")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1be2a3e8-f594-41a4-9cff-e1bd9c3f0868")
 		)
 		(pin "Vin_ex" input
 			(at 125.73 55.88 180)
+			(uuid "1d1632cf-5f24-426e-94d5-f83e0438a302")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1d1632cf-5f24-426e-94d5-f83e0438a302")
 		)
 		(pin "emerg_detector" output
 			(at 157.48 55.88 0)
+			(uuid "1881998b-48c6-47e2-896e-89bf25400d76")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1881998b-48c6-47e2-896e-89bf25400d76")
 		)
 		(pin "emerge_order" input
 			(at 157.48 60.96 0)
+			(uuid "60556b58-0349-49d0-84af-03cb33f08074")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "60556b58-0349-49d0-84af-03cb33f08074")
 		)
 		(pin "power_checker" output
 			(at 157.48 58.42 0)
+			(uuid "1563eecc-f030-43f0-a678-778744f34015")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1563eecc-f030-43f0-a678-778744f34015")
 		)
 		(pin "SCL_3V3" output
 			(at 157.48 73.66 0)
+			(uuid "8e563a6a-c0ca-4ab8-865a-c086be1c7c9e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8e563a6a-c0ca-4ab8-865a-c086be1c7c9e")
 		)
 		(pin "SDA_3V3" output
 			(at 157.48 76.2 0)
+			(uuid "4e66c355-e8bd-46b8-b748-26ef66e25704")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e66c355-e8bd-46b8-b748-26ef66e25704")
 		)
 		(pin "GND" output
 			(at 154.94 88.9 270)
+			(uuid "29f4a16d-eeed-49c8-9370-293a15659111")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29f4a16d-eeed-49c8-9370-293a15659111")
 		)
 		(pin "3V_I2C" output
 			(at 157.48 71.12 0)
+			(uuid "365240fc-ef6f-465f-b364-1fe7b624fd0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "365240fc-ef6f-465f-b364-1fe7b624fd0a")
 		)
 		(instances
 			(project "ORCA_power_board"
@@ -2600,6 +2626,10 @@
 	(sheet
 		(at 132.08 115.062)
 		(size 12.7 23.368)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2629,43 +2659,43 @@
 		)
 		(pin "GND" output
 			(at 144.78 132.08 0)
+			(uuid "fc3f4205-3336-4459-b286-ab566e07cefe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc3f4205-3336-4459-b286-ab566e07cefe")
 		)
 		(pin "Vin" input
 			(at 144.78 118.11 0)
+			(uuid "0e554608-4377-4675-b2a7-a263ac8981c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e554608-4377-4675-b2a7-a263ac8981c0")
 		)
 		(pin "Vout" input
 			(at 144.78 124.46 0)
+			(uuid "4ab7f671-045a-42a8-ab0b-43f58ffa9284")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ab7f671-045a-42a8-ab0b-43f58ffa9284")
 		)
 		(pin "GND_5V" output
 			(at 144.78 135.89 0)
+			(uuid "85448dee-ff28-4762-8257-ace057fe8aad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "85448dee-ff28-4762-8257-ace057fe8aad")
 		)
 		(instances
 			(project "ORCA_power_board"
@@ -2680,4 +2710,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
